@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-german-murillo
+  namespace: namespace-german-murillo
+spec:
+  containers:
+  - name: httpd
+    image: httpd
+    ports:
+    - containerPort: 80
